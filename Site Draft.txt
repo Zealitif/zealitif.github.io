@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="eng-US" dir="ltr">
+
+<head>
+<meta charset="UTF-8">
+<title>Zeenat Latif</title>
+</head>
+
+<body>
+  
+  <h1>Whisker Wise</h1>
+<p>Welcome to Whisker Wise! A guide for all your needs on cat-care basics and providing resources on how you can lend a helping hand to feline friends in need.</p>
+<p>Here, you can learn about tips on caring for your kitty as well as ways you can make an impact on the cat community, from fostering to adopting or even volunteering at your local shelter, we have everything you need to make an impact.</p>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="About our mission.html">About our misison</a></li>
+      <li><a href="Cat care basics.html">Cat care basics</a></li>
+      <li><a href="Adoption and Fostering.html">Adopting and Fostering</a></li>
+      <li><a href="Volunteer nearby.html">Volunteer nearby</a></li>
+
+
+</body>
+
+</html>
+    
