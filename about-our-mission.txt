@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+<meta charse="UTF-8">
+<title>Zeenat Latif</title>
+</head>
+
+<Body>
+<h1>About Out Mission/h1>
+
+<p>Our goal is to provide a better community and life style to felines. Mother cats can have up to five litters of kittens a year! This can range from one to a dozen kittens per litter! Thats a lot of kitties. We want to give them a better chance at life and reduce the risk of them becoming strays or stuck in a shelter.</p>
+ </ul>
+ </nav>
+ 
+
+</body>
+</html>
