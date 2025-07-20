@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+<meta charse="UTF-8">
+<title>Zeenat Latif</title>
+</head>
+
+<Body>
+<h1>Cat Care Basics/h1>
+
+<p>Caring for a cat takes a lot of work, but with our tips and tricks we can help lay down the essentials on what a cat needs to be happy and healthy.</p>
+ </ul>
+ </nav>
+ 
+
+</body>
+</html>
