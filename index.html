@@ -2,29 +2,129 @@
 <html lang="en-US" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <title>Zeenat Latif</title>
+  <title>Zeenat Latif - Whisker Wise</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #b4dff3;
+      font-family: Helvetica, Arial, sans-serif;
+      color: #d0a01c;
+    }
+
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+      font-family: 'ITC Benguiat', 'Benguiat Bold', serif;
+    }
+
+    nav {
+      float: left;
+      width: 30%;
+      background: #ccc;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #d0a01c;
+      text-decoration: none;
+      padding: 8px 0;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+    }
+
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    #banner h2 {
+      font-size: 1.2em;
+      font-weight: normal;
+      color: #333;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
 </head>
 
-<body style="background-color: #b4dff3; font-family: Helvetica, Arial, sans-serif; color: #d0a01c; padding: 20px;">
+<body>
 
-  <h1 style="font-family: 'ITC Benguiat', 'Benguiat Bold', serif; color: #d0a01c;">Whisker Wise</h1>
-<img src="istockphoto-1071204136-612x612.jpg" alt="Cat_1_stockphoto" width="612" height="408">
+  <header>
+    Whisker Wise
+  </header>
 
-  <section id="banner">
-				<h2>Welcome to Whisker Wise! A guide for all your needs on cat-care basics and providing resources on how you can lend a helping hand to feline friends in need.</h2>
-			</section>
+  <section>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-our-mission.html">About Our Mission</a></li>
+        <li><a href="cat-care-basics.html">Cat Care Basics</a></li>
+        <li><a href="adoption-and-fostering.html">Adoption and Fostering</a></li>
+        <li><a href="Volunteer-nearby.html">Volunteer Nearby</a></li>
+      </ul>
+    </nav>
 
-  <p>Here, you can learn about tips on caring for your kitty as well as ways you can make an impact on the cat community. From fostering to adopting or even volunteering at your local shelter, we have everything you need to make an impact.</p>
+    <article>
+      <img src="istockphoto-1071204136-612x612.jpg" alt="Cat_1_stockphoto">
+      <section id="banner">
+        <h2>
+          Welcome to Whisker Wise! A guide for all your needs on cat-care basics and providing resources on how you can lend a helping hand to feline friends in need.
+        </h2>
+      </section>
 
-  <nav>
-    <ul style="list-style-type: none; padding-left: 0;">
-      <li><a href="index.html" style="color: #d0a01c; text-decoration: none;">Home</a></li>
-      <li><a href="about-our-mission.html" style="color: #d0a01c; text-decoration: none;">About Our Mission</a></li>
-      <li><a href="cat-care-basics.html" style="color: #d0a01c; text-decoration: none;">Cat Care Basics</a></li>
-      <li><a href="adoption-and-fostering.html" style="color: #d0a01c; text-decoration: none;">Adoption and Fostering</a></li>
-      <li><a href="Volunteer-nearby.html" style="color: #d0a01c; text-decoration: none;">Volunteer Nearby</a></li>
-    </ul>
-  </nav>
+      <p>
+        Here, you can learn about tips on caring for your kitty as well as ways you can make an impact on the cat community. From fostering to adopting or even volunteering at your local shelter, we have everything you need to make an impact.
+      </p>
+    </article>
+  </section>
+
+  <footer>
+    &copy; 2025 Whisker Wise | Zeenat Latif
+  </footer>
 
 </body>
 </html>
