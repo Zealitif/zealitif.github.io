@@ -1,3 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeenat Latif - Whisker Wise</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #ffc190;
+      font-family: 'Futura', 'Trebuchet MS', sans-serif;
+      color: #334e5a;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #CCCCFF;
+      padding: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    header img {
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: #ffe0b2;
+    }
+
+    nav {
+      width: 30%;
+      background: #ffe0b2;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #334e5a;
+      text-decoration: none;
+      padding: 8px 0;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      width: 70%;
+      padding: 20px;
+      background-color: #ffe0b2;
+    }
+
+    #banner h2 {
+      font-size: 1.2em;
+      font-weight: normal;
+      color: #334e5a;
+      text-align: center;
+    }
+
+    article p {
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .center-img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #ffe0b2;
+      padding: 10px;
+      text-align: center;
+      color: #334e5a;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+
+      nav, article {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
 <body>
 
   <header>
@@ -5,43 +124,41 @@
   </header>
 
   <div class="container">
-    <section>
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about-our-mission.html">About Our Mission</a></li>
-          <li><a href="cat-care-basics.html">Cat Care Basics</a></li>
-          <li><a href="adoption-and-fostering.html">Adoption and Fostering</a></li>
-          <li><a href="volunteer-nearby.html">Volunteer Nearby</a></li>
-        </ul>
-      </nav>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-our-mission.html">About Our Mission</a></li>
+        <li><a href="cat-care-basics.html">Cat Care Basics</a></li>
+        <li><a href="adoption-and-fostering.html">Adoption and Fostering</a></li>
+        <li><a href="volunteer-nearby.html">Volunteer Nearby</a></li>
+      </ul>
+    </nav>
 
-      <article>
-        <div class="center-img">
-          <img src="istockphoto-1071204136-612x612.jpg" alt="catphoto" width="306" height="204">
-        </div>
+    <article>
+      <div class="center-img">
+        <img src="istockphoto-1071204136-612x612.jpg" alt="catphoto" width="306" height="204">
+      </div>
 
-        <section id="banner">
-          <h2>
-            Welcome to Whisker Wise! A guide for all your needs on cat-care basics and providing resources on how you can lend a helping hand to feline friends in need.
-          </h2>
-        </section>
+      <section id="banner">
+        <h2>
+          Welcome to Whisker Wise! A guide for all your needs on cat-care basics and providing resources on how you can lend a helping hand to feline friends in need.
+        </h2>
+      </section>
 
-        <p>
-          Welcome to Whisker Wise! Your hub for all things feline and feline-aiding related.
-          Here, you can navigate through an abundance of resources that will provide you with opportunities to help cats in need.
-        </p>
-        <p>
-          Discover our mission and learn why we are dedicated to supporting cats. Learn the basics of cat care so your feline friend at home can feel at ease.
-          Explore our resources to find out how adopting and fostering a cat can be a big help to the community, as well as a chance for you to welcome home a new member of the family.
-          Or simply volunteer at a list of shelters within the local Burke area.
-        </p>
-        <p>
-          All of this and more are provided here on this helpful site!
-          We look forward to seeing what kind of impact you can make with the aid of Whisker Wise!
-        </p>
-      </article>
-    </section>
+      <p>
+        Welcome to Whisker Wise! Your hub for all things feline and feline-aiding related.
+        Here, you can navigate through an abundance of resources that will provide you with opportunities to help cats in need.
+      </p>
+      <p>
+        Discover our mission and learn why we are dedicated to supporting cats. Learn the basics of cat care so your feline friend at home can feel at ease.
+        Explore our resources to find out how adopting and fostering a cat can be a big help to the community, as well as a chance for you to welcome home a new member of the family.
+        Or simply volunteer at a list of shelters within the local Burke area.
+      </p>
+      <p>
+        All of this and more are provided here on this helpful site!
+        We look forward to seeing what kind of impact you can make with the aid of Whisker Wise!
+      </p>
+    </article>
   </div>
 
   <footer>
@@ -49,3 +166,4 @@
   </footer>
 
 </body>
+</html>
