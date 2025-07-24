@@ -2,8 +2,8 @@
 <html lang="en-US" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zeenat Latif - Cat Care Basics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     * {
       box-sizing: border-box;
@@ -12,15 +12,21 @@
     body {
       margin: 0;
       padding: 20px;
-      background-color: #ffc190; /* same background as first */
-      font-family: 'Futura', 'Trebuchet MS', sans-serif; /* same font */
-      color: #334e5a; /* same font color */
+      background-color: #ffc190;
+      font-family: 'Futura', 'Trebuchet MS', sans-serif;
+      color: #334e5a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
     }
 
     header {
       background-color: #CCCCFF;
       padding: 30px;
       text-align: center;
+      width: 100%;
     }
 
     header img {
@@ -30,8 +36,15 @@
       margin: 0 auto;
     }
 
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: #ffe0b2;
+    }
+
     nav {
-      float: left;
       width: 30%;
       background: #ffe0b2;
       padding: 20px;
@@ -55,16 +68,9 @@
     }
 
     article {
-      float: left;
-      padding: 20px;
       width: 70%;
+      padding: 20px;
       background-color: #ffe0b2;
-    }
-
-    section::after {
-      content: "";
-      display: table;
-      clear: both;
     }
 
     footer {
@@ -72,13 +78,16 @@
       padding: 10px;
       text-align: center;
       color: #334e5a;
-      clear: both;
+      width: 100%;
     }
 
     @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+
       nav, article {
         width: 100%;
-        height: auto;
       }
     }
   </style>
@@ -90,7 +99,7 @@
     <img src="header1.png" alt="Whisker Wise">
   </header>
 
-  <section>
+  <div class="container">
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -139,7 +148,7 @@
         A cat isn’t too high-maintenance when it comes to grooming; they don’t require frequent baths—only occasionally when there’s visible dirt or grease buildup. Most of the time, cats bathe themselves with their tongues. However, cats do need to be brushed and combed with appropriate tools depending on their coat length. Long-haired cats need grooming more often than short-haired ones. Nail care is also important: clipping or filing their nails is recommended. If the caretaker is unable to do this, a visit to a pet salon or veterinarian’s office is a good alternative.
       </p>
     </article>
-  </section>
+  </div>
 
   <footer>
     &copy; 2025 Whisker Wise | Zeenat Latif
@@ -147,3 +156,4 @@
 
 </body>
 </html>
+
