@@ -1,27 +1,134 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 <head>
-<meta charse="UTF-8">
-<title>Zeenat Latif</title>
+  <meta charset="UTF-8">
+  <title>Zeenat Latif</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #ffc190;
+      font-family: 'Futura', 'Trebuchet MS', sans-serif;
+      color: #334e5a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #CCCCFF;
+      padding: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    header img {
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: #ffe0b2;
+    }
+
+    nav {
+      width: 30%;
+      background: #ffe0b2;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #334e5a;
+      text-decoration: none;
+      padding: 8px 0;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      width: 70%;
+      padding: 20px;
+      background-color: #ffe0b2;
+    }
+
+    footer {
+      background-color: #ffe0b2;
+      padding: 10px;
+      text-align: center;
+      color: #334e5a;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+
+      nav, article {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 
-<Body>
-<h1>Adoption and Fostering</h1>
+<body>
 
- <h2>Adoption</h2>
+  <header>
+    <img src="header1.png" alt="Whisker Wise">
+  </header>
 
-</p>When you want to look for information regarding adopting a cat, there are a few simple things you need to know. Cats in shelters vary in breed, age, and health. You have the chance to adopt a kitten, an older cat, or even a cat who is visually impaired and needs extra help. When you adopt cats that need a little extra help, know that you’re doing a great service to help the cat community, but also please communicate with the shelter staff regarding the extra steps that these cats will need.</p> 
+  <div class="container">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-our-mission.html">About Our Mission</a></li>
+        <li><a href="cat-care-basics.html">Cat Care Basics</a></li>
+        <li><a href="adoption-and-fostering.html">Adoption and Fostering</a></li>
+        <li><a href="volunteer-nearby.html">Volunteer Nearby</a></li>
+      </ul>
+    </nav>
 
- <h2>Learn About The Cat Before Adopting Or Fostering</h2>
- <p>It’s always important to get in touch with the staff about the cat, whether it's regarding the cat’s health history or what situation they were in before arriving at the shelter. It’s a bit of an extra step, but it’s always great to ask about what the cat likes and dislikes. This will ensure things go smoothly when you bring them home. Finding out what the cat’s favorite type of food is, what treats they like, their favorite place to be pet, etc, all help the cat get along with you and will allow them to easily cozy up with you.</p>
+    <article>
+      <h1>Adoption and Fostering</h1>
 
- <h2>Fostering</h2>
+      <h2>Adoption</h2>
 
- <p>To foster a cat means to get in touch with the shelter, offer your help, and inform them that you wish to foster a cat. Before fostering or adopting, the shelter will always do a background check, so be prepared for that. Then you’ll be able to start fostering, you’ll be able to take care of the cat or kitten while they're in the adoption system, and help prepare them for a future forever home. Eventually, the cat will get adopted, so be prepared to say goodbye to your furry little friend. But, know, no matter if you foster or adopt, you're doing a great service for the cats.</p>
- 
-</ul>
-  </nav>
- 
+      <p>When you want to look for information regarding adopting a cat, there are a few simple things you need to know. Cats in shelters vary in breed, age, and health. You have the chance to adopt a kitten, an older cat, or even a cat who is visually impaired and needs extra help. When you adopt cats that need a little extra help, know that you’re doing a great service to help the cat community, but also please communicate with the shelter staff regarding the extra steps that these cats will need.</p>
+
+      <h2>Learn About The Cat Before Adopting Or Fostering</h2>
+      <p>It’s always important to get in touch with the staff about the cat, whether it's regarding the cat’s health history or what situation they were in before arriving at the shelter. It’s a bit of an extra step, but it’s always great to ask about what the cat likes and dislikes. This will ensure things go smoothly when you bring them home. Finding out what the cat’s favorite type of food is, what treats they like, their favorite place to be pet, etc, all help the cat get along with you and will allow them to easily cozy up with you.</p>
+
+      <h2>Fostering</h2>
+
+      <p>To foster a cat means to get in touch with the shelter, offer your help, and inform them that you wish to foster a cat. Before fostering or adopting, the shelter will always do a background check, so be prepared for that. Then you’ll be able to start fostering, you’ll be able to take care of the cat or kitten while they're in the adoption system, and help prepare them for a future forever home. Eventually, the cat will get adopted, so be prepared to say goodbye to your furry little friend. But, know, no matter if you foster or adopt, you're doing a great service for the cats.</p>
+    </article>
+  </div>
+
+  <footer>
+    &copy; 2025 Whisker Wise | Zeenat Latif
+  </footer>
 
 </body>
 </html>
