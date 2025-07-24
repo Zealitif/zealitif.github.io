@@ -2,6 +2,7 @@
 <html lang="en-US" dir="ltr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zeenat Latif - Whisker Wise</title>
   <style>
     * {
@@ -20,9 +21,13 @@
       background-color: #CCCCFF;
       padding: 30px;
       text-align: center;
-      font-size: 35px;
-      color: white;
-      font-family: 'Futura', 'Trebuchet MS', sans-serif;
+    }
+
+    header img {
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
     }
 
     nav {
@@ -30,8 +35,6 @@
       width: 30%;
       background: #ffe0b2;
       padding: 20px;
-      font-family: 'Futura', 'Trebuchet MS', sans-serif;
-      color: #334e5a;
     }
 
     nav ul {
@@ -56,8 +59,6 @@
       padding: 20px;
       width: 70%;
       background-color: #ffe0b2;
-      font-family: 'Futura', 'Trebuchet MS', sans-serif;
-      color: #334e5a;
     }
 
     section::after {
@@ -73,8 +74,9 @@
     }
 
     img {
-      width: 581px;
-      height: 388px;
+      max-width: 100%;
+      height: auto;
+      display: block;
       margin-bottom: 20px;
     }
 
@@ -83,16 +85,10 @@
       padding: 10px;
       text-align: center;
       color: #334e5a;
-      font-family: 'Futura', 'Trebuchet MS', sans-serif;
     }
 
     @media (max-width: 600px) {
       nav, article {
-        width: 100%;
-        height: auto;
-      }
-
-      img {
         width: 100%;
         height: auto;
       }
@@ -103,22 +99,22 @@
 <body>
 
   <header>
-    <img src="header1.png" alt="header logo">
+    <img src="header1.png" alt="Whisker Wise logo with cat silhouette">
   </header>
 
   <section>
-    <nav>
+    <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about-our-mission.html">About Our Mission</a></li>
         <li><a href="cat-care-basics.html">Cat Care Basics</a></li>
         <li><a href="adoption-and-fostering.html">Adoption and Fostering</a></li>
-        <li><a href="Volunteer-nearby.html">Volunteer Nearby</a></li>
+        <li><a href="volunteer-nearby.html">Volunteer Nearby</a></li>
       </ul>
     </nav>
 
     <article>
-      <img src="istockphoto-1071204136-612x612.jpg" alt="Cat_1_stockphoto">
+      <img src="istockphoto-1071204136-612x612.jpg" alt="Orange tabby cat resting on a blanket">
 
       <section id="banner">
         <h2>
