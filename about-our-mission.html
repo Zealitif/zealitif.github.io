@@ -1,17 +1,129 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 <head>
-<meta charse="UTF-8">
-<title>Zeenat Latif</title>
+  <meta charset="UTF-8">
+  <title>Zeenat Latif - About Our Mission</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #ffc190;
+      font-family: 'Futura', 'Trebuchet MS', sans-serif;
+      color: #334e5a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #CCCCFF;
+      padding: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+    header img {
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: #ffe0b2;
+    }
+
+    nav {
+      width: 30%;
+      background: #ffe0b2;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #334e5a;
+      text-decoration: none;
+      padding: 8px 0;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    article {
+      width: 70%;
+      padding: 20px;
+      background-color: #ffe0b2;
+    }
+
+    footer {
+      background-color: #ffe0b2;
+      padding: 10px;
+      text-align: center;
+      color: #334e5a;
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+
+      nav, article {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 
-<Body>
-<h1>About Out Mission/h1>
+<body>
 
-<p>Whisker Wise is dedicated to providing cats a better chance at living their lives. We believe we can provide these chances by educating and providing resources for this to be possible. Whenever someone learns the basics or even provides a helping hand at a local shelter, it can make a massive impact in helping the cat community. We hope that you all can take a moment of your time to use Whisker Wise as a resource in order to learn more and help a cat’s life today!</p>
- </ul>
- </nav>
- 
+  <header>
+    <img src="header1.png" alt="Whisker Wise">
+  </header>
+
+  <div class="container">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-our-mission.html">About Our Mission</a></li>
+        <li><a href="cat-care-basics.html">Cat Care Basics</a></li>
+        <li><a href="adoption-and-fostering.html">Adoption and Fostering</a></li>
+        <li><a href="volunteer-nearby.html">Volunteer Nearby</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <h1>About Our Mission</h1>
+
+      <p>
+        Whisker Wise is dedicated to providing cats a better chance at living their lives. We believe we can provide these chances by educating and providing resources for this to be possible.
+        <b>Whenever someone learns the basics or even provides a helping hand at a local shelter, it can make a massive impact in helping the cat community.</b>
+        We hope that you all can take a moment of your time to use Whisker Wise as a resource in order to learn more and help a cat’s life today!
+      </p>
+    </article>
+  </div>
+
+  <footer>
+    &copy; 2025 Whisker Wise | Zeenat Latif
+  </footer>
 
 </body>
 </html>
