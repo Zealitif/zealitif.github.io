@@ -56,16 +56,28 @@
       padding: 0;
     }
 
+    nav ul li {
+      margin-bottom: 12px;
+    }
+
     nav ul li a {
       display: block;
       color: #334e5a;
       text-decoration: none;
-      padding: 8px 0;
+      padding: 14px 30px;
       font-weight: bold;
+      border-radius: 20px; /* Rounded corners like the SVG */
+      border: 2px solid #334e5a;
+      text-align: center;
+      background-color: #ffe0b2;
+      transition: all 0.3s ease;
     }
 
     nav ul li a:hover {
-      text-decoration: underline;
+      background-color: #334e5a;
+      color: white;
+      text-decoration: none;
+      transform: scale(1.05);
     }
 
     article {
