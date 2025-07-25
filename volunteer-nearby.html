@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Zeenat Latif - Volunteer Nearby</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     * {
       box-sizing: border-box;
@@ -27,6 +27,7 @@
       padding: 30px;
       text-align: center;
       width: 100%;
+      border-radius: 20px 20px 0 0;
     }
 
     header img {
@@ -42,6 +43,9 @@
       max-width: 1000px;
       width: 100%;
       background-color: #ffe0b2;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     nav {
@@ -53,33 +57,69 @@
     nav ul {
       list-style-type: none;
       padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin-bottom: 12px;
     }
 
     nav ul li a {
       display: block;
       color: #334e5a;
       text-decoration: none;
-      padding: 8px 0;
+      padding: 12px 20px;
       font-weight: bold;
+      border-radius: 20px;
+      border: 2px solid #334e5a;
+      background-color: #ffe0b2;
+      text-align: center;
+      transition: all 0.3s ease;
     }
 
     nav ul li a:hover {
-      text-decoration: underline;
+      background-color: #334e5a;
+      color: white;
+      transform: scale(1.05);
     }
 
     article {
       width: 70%;
       padding: 20px;
       background-color: #ffe0b2;
+      border-left: 1px solid #e0c89f;
+      border-radius: 0 20px 20px 0;
+    }
+
+    article h1 {
+      text-align: center;
+      margin-top: 0;
+      border-radius: 10px;
+      padding: 10px 0;
+    }
+
+    article p,
+    article a {
+      line-height: 1.6;
+      font-size: 1.05em;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #fff3d1;
+      margin-bottom: 15px;
     }
 
     article a {
       color: #334e5a;
       text-decoration: underline;
+      transition: all 0.3s ease;
     }
 
     article a:hover {
       text-decoration: none;
+      background-color: #334e5a;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
     }
 
     footer {
@@ -88,6 +128,9 @@
       text-align: center;
       color: #334e5a;
       width: 100%;
+      margin-top: 20px;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
     }
 
     @media (max-width: 600px) {
@@ -95,17 +138,23 @@
         flex-direction: column;
       }
 
-      nav, article {
+      nav,
+      article {
         width: 100%;
+      }
+
+      article {
+        border-left: none;
+        border-top: 1px solid #e0c89f;
+        border-radius: 0 0 20px 20px;
       }
     }
   </style>
 </head>
 
 <body>
-
   <header>
-    <img src="header1.png" alt="Whisker Wise">
+    <img src="header1.png" alt="Whisker Wise" />
   </header>
 
   <div class="container">
@@ -144,7 +193,5 @@
   <footer>
     &copy; 2025 Whisker Wise | Zeenat Latif
   </footer>
-
 </body>
 </html>
-
