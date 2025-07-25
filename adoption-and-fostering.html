@@ -42,6 +42,8 @@
       max-width: 1000px;
       width: 100%;
       background-color: #ffe0b2;
+      border-radius: 20px;
+      overflow: hidden;
     }
 
     nav {
@@ -55,22 +57,48 @@
       padding: 0;
     }
 
+    nav ul li {
+      margin-bottom: 12px;
+    }
+
     nav ul li a {
       display: block;
       color: #334e5a;
       text-decoration: none;
-      padding: 8px 0;
+      padding: 14px 20px;
       font-weight: bold;
+      border-radius: 20px;
+      border: 2px solid #334e5a;
+      text-align: center;
+      background-color: #ffe0b2;
+      transition: all 0.3s ease;
     }
 
     nav ul li a:hover {
-      text-decoration: underline;
+      background-color: #334e5a;
+      color: white;
+      transform: scale(1.05);
     }
 
     article {
       width: 70%;
       padding: 20px;
       background-color: #ffe0b2;
+      border-left: 1px solid #e0c89f;
+    }
+
+    article h1, article h2 {
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    article p {
+      text-align: center;
+      line-height: 1.6;
+      font-size: 1.05em;
+      padding: 10px;
+      border-radius: 20px;
     }
 
     footer {
@@ -79,6 +107,8 @@
       text-align: center;
       color: #334e5a;
       width: 100%;
+      margin-top: 20px;
+      border-radius: 0 0 20px 20px;
     }
 
     @media (max-width: 600px) {
@@ -88,6 +118,11 @@
 
       nav, article {
         width: 100%;
+      }
+
+      article {
+        border-left: none;
+        border-top: 1px solid #e0c89f;
       }
     }
   </style>
@@ -114,15 +149,27 @@
       <h1>Adoption and Fostering</h1>
 
       <h2>Adoption</h2>
-
-      <p>When you want to look for information regarding adopting a cat, there are a few simple things you need to know. Cats in shelters vary in breed, age, and health. You have the chance to adopt a kitten, an older cat, or even a cat who is visually impaired and needs extra help. When you adopt cats that need a little extra help, know that you’re doing a great service to help the cat community, but also please communicate with the shelter staff regarding the extra steps that these cats will need.</p>
+      <p>
+        When you want to look for information regarding adopting a cat, there are a few simple things you need to know.
+        Cats in shelters vary in breed, age, and health. You have the chance to adopt a kitten, an older cat, or even a cat who is visually impaired and needs extra help.
+        When you adopt cats that need a little extra help, know that you’re doing a great service to help the cat community, but also please communicate with the shelter staff regarding the extra steps that these cats will need.
+      </p>
 
       <h2>Learn About The Cat Before Adopting Or Fostering</h2>
-      <p>It’s always important to get in touch with the staff about the cat, whether it's regarding the cat’s health history or what situation they were in before arriving at the shelter. It’s a bit of an extra step, but it’s always great to ask about what the cat likes and dislikes. This will ensure things go smoothly when you bring them home. Finding out what the cat’s favorite type of food is, what treats they like, their favorite place to be pet, etc, all help the cat get along with you and will allow them to easily cozy up with you.</p>
+      <p>
+        It’s always important to get in touch with the staff about the cat, whether it's regarding the cat’s health history or what situation they were in before arriving at the shelter.
+        It’s a bit of an extra step, but it’s always great to ask about what the cat likes and dislikes. This will ensure things go smoothly when you bring them home.
+        Finding out what the cat’s favorite type of food is, what treats they like, their favorite place to be pet, etc, all help the cat get along with you and will allow them to easily cozy up with you.
+      </p>
 
       <h2>Fostering</h2>
-
-      <p>To foster a cat means to get in touch with the shelter, offer your help, and inform them that you wish to foster a cat. Before fostering or adopting, the shelter will always do a background check, so be prepared for that. Then you’ll be able to start fostering, you’ll be able to take care of the cat or kitten while they're in the adoption system, and help prepare them for a future forever home. Eventually, the cat will get adopted, so be prepared to say goodbye to your furry little friend. But, know, no matter if you foster or adopt, you're doing a great service for the cats.</p>
+      <p>
+        To foster a cat means to get in touch with the shelter, offer your help, and inform them that you wish to foster a cat.
+        Before fostering or adopting, the shelter will always do a background check, so be prepared for that.
+        Then you’ll be able to start fostering, you’ll be able to take care of the cat or kitten while they're in the adoption system,
+        and help prepare them for a future forever home. Eventually, the cat will get adopted, so be prepared to say goodbye to your furry little friend.
+        But, know, no matter if you foster or adopt, you're doing a great service for the cats.
+      </p>
     </article>
   </div>
 
